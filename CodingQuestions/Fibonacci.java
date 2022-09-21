@@ -2,7 +2,7 @@ import java.util.Scanner;
 class Fibonacci{
     public static void main(String []args) {
     	Scanner sc=new Scanner(System.in);
-    	System.out.println("Enter 0 to get required fibonacci numbers\n- choose if you want specific number of fibonacci numbers from zero \n");
+    	System.out.println("Enter 0 to get required number of fibonacci numbers\n- choose if you want specific number of fibonacci numbers from zero \n");
     	System.out.println("Enter 1 to get  fibonacci numbers upto desired number\n- choose if you want fibonacci within a range from zero ");
     	int n0=sc.nextInt();
     	
