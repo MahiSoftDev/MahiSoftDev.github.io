@@ -10,7 +10,7 @@ class Fibonacci{
     	if(n0==0) {
     	System.out.println("Enter how many fibonacci numbers you want");
         	int n=sc.nextInt();
-    	System.out.print("0, 1");
+    	System.out.print("0");
     	for(int i=0;i<=n-3;i++) {
     		n3=n1+n2;
     		//n3=0+1=1
@@ -26,7 +26,7 @@ class Fibonacci{
     	if(n0==1) {
     		System.out.println("Enter upto which range you want fibonacci number");
     	int n4=sc.nextInt();
-    	System.out.print("0, 1");
+    	System.out.print("0");
     	for(int i=0,j=0;j<=n4;i++) {
     		n3=n1+n2;
     		//n3=0+1=1
