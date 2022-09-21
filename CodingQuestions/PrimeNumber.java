@@ -2,11 +2,11 @@ import java.util.Scanner;
 class PrimeNumber{
 	public static void main(String []args){
 	int b=1;
-	do {
+	do { // run the program until user choses to close it 
 		System.out.println("Enter a number to check whether its Prime number ot not");
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int prime=0;
+		int a=sc.nextInt(); //take user input and assign it to a variable
+		int prime=0; //assign the value 0 this will help us later in the program
 		
 		if (a==0 || a==1){
 				System.out.println("Given number is not a Prime Number");
