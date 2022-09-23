@@ -6,32 +6,38 @@
     <title>2 Box inside a box</title>
     <style>
         .border0{
+            
             border: 5px solid black;
             margin: 10px 10px 10px 10px;
             height: 98%;
+            background-color: azure;
         }
         .border1{
             border: 1px solid black;
             margin: 10px 10px 10px 10px;
-            width:48%;
-            height: 40%;
+            width:100px;
+            height: 100px;
+            background-color: aquamarine;
+            margin-left:30%;
         }
         .border2{
             border: 1px solid black;
             margin: 10px 10px 10px 10px;
-            width:48%;
-            -webkit-box-align: center;
+            width:100px;
+            background-color: burlywood;
+            margin-left:30%;
+            height: 100px;
         }
     </style>
 </head>
 <body>
     <div class="border0">
-      &nbsp;
+      &nbsp;Box 1
       <h1 class="border1">
-        &nbsp; 
+        &nbsp; Box 2
       </h1>
       <h1 class="border2">
-        &nbsp; 
+        &nbsp; Box 3
       </h1>
     </div>
 </body>
