@@ -8,5 +8,6 @@ class Substract{
 	int b=sc.nextInt();
 	System.out.print("Substract of "+b+" from "+a+" is ");
 	System.out.println(a+(~b+1));
+	sc.close();
 }
 }

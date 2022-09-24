@@ -1,10 +1,11 @@
 import java.util.Scanner;
 class PrimeNumber{
 	public static void main(String []args){
+	Scanner sc=new Scanner(System.in);
 	int b=1;
 	do { // run the program until user choses to close it 
 		System.out.println("Enter a number to check whether its Prime number ot not");
-		Scanner sc=new Scanner(System.in);
+		
 		int a=sc.nextInt(); //take user input and assign it to a variable
 		int prime=0; //assign the value 0 this will help us later in the program
 		
@@ -27,9 +28,10 @@ class PrimeNumber{
 					System.out.println("Given Number is a Prime Number");
 				}
 		System.out.println("\nWant to check another number ?\n To continue checking enter 1\n to exit the programm enter 0");
-		String temp=sc.nextLine();
+	//	String temp=sc.nextLine();
 		b=sc.nextInt();
 	
 	}while(b==1);
+	sc.close();
 }
 }

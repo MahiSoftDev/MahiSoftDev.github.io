@@ -5,9 +5,10 @@ public class Palindrome {
 	Question : check whether given number is Palindrome or not.--> getting the number directly from user by using scanner class
 	*/
 	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
 		int exit=0;
 		do{ // this is just to create a loop to repeat the program 
-		Scanner sc=new Scanner(System.in);
+		
 		int count=0;
 		int arrayLength=0;
 		System.out.println("Enter number");
@@ -37,7 +38,10 @@ public class Palindrome {
 }
 	System.out.println("Enter 0 to continue & 1 to exit");
 	exit=sc.nextInt();
+	
 	}while(exit==0);
+	sc.close();
 	}
+
 }
 	

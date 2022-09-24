@@ -27,12 +27,12 @@ class Fibonacci{
     		System.out.println("Enter upto which range you want fibonacci number");
     	int n4=sc.nextInt();
     	System.out.print("0");
-    	for(int i=0,j=0;j<=n4;i++) {
+    	for(int i=0;i<n4;i++) {
     		n3=n1+n2;
     		//n3=0+1=1
     		n1=n2;
     		n2=n3;
-    		j=n3;
+    		i=n3;
     		if(n3<=n4) {
     	    	System.out.print(", "+n3);
     		}
@@ -40,5 +40,6 @@ class Fibonacci{
     	   //n3=2+3=5
     	}
     	}
+		sc.close();
     }
 } 
