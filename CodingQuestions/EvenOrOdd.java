@@ -8,6 +8,6 @@ class EvenOrOdd{
 				System.out.println("Given Number "+a+" is Even");
 		}else {
 				System.out.println("Given Number "+a+" is Odd");
-		}
+		}sc.close();
 	}
 }

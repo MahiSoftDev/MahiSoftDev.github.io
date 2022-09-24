@@ -7,5 +7,6 @@ class Add{
 	System.out.println("Enter b value");
 	int b=sc.nextInt();
 	System.out.println("Sum of "+a+" & "+b+" is "+(a-(-b)));
+	sc.close();
 }
 }

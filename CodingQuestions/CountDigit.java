@@ -5,5 +5,6 @@ class CountDigit{
 		Scanner sc=new Scanner (System.in);
 		String data=sc.nextLine();
 		System.out.println("Number of Digits in the given Number \n"+data+" is "+data.length());
+		sc.close();
 	}	
 }
