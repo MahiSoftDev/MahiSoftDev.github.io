@@ -21,3 +21,11 @@ general sibling selector
 div ~ p {
     color : violet;
 }
+.imageparent{
+    position: absolute;
+}
+.absolutetext{
+    position: absolute;
+    top: 0;
+    left:0;
+}

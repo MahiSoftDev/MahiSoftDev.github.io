@@ -1,0 +1,32 @@
+
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 2;
+    width: 100px;
+    background-color:rgba(169, 169, 169, 0.199);
+  }
+  
+  li a {
+    display: block;
+    padding:2px;
+    margin:1px ;
+  }
+
+  /* change color on hover */
+  li a:hover {
+    background-color: rgb(51, 255, 0);
+    color: white;
+  }
+
+  .horNav{
+    list-style-type: none;
+    margin: 0px;
+    padding: 2;
+    width: 100px;
+    background-color:rgba(169, 169, 169, 0.199);
+  }
+
+  .horNav li{
+    display: inline;
+  }
