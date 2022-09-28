@@ -7,7 +7,7 @@ class CountStringNoLengthMethod{
 		originalString=args[0];
 		originalString1=args[0];
 		System.out.println("Characters in given string with space : "+count(originalString));
-		System.out.println("Characters in given string with space : "+countWithoutSpace(originalString1));
+		System.out.println("Characters in given string without considering space : "+countWithoutSpace(originalString1));
 	}
 	static int count(String originalString){
 		if(originalString.isEmpty()){
