@@ -1,0 +1,10 @@
+
+/* descendant selector */
+div p{
+    color:rgb(17, 0, 255);
+}
+
+/* child selector */
+div > p{
+    color:red;
+}
